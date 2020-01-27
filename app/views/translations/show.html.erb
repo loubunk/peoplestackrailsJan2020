@@ -1,0 +1,15 @@
+<p>
+  <strong>Key:</strong>
+  <%= @translation.key %>
+</p>
+<br/>
+<p>
+  <strong>Value:</strong>
+  <%= @translation.value%>
+</p>
+<br/><br/>
+
+<%= link_to 'Edit', edit_translation_path(@translation), class: 'whiteLink' %> | 
+<%= link_to 'Back', translations_path, class: 'whiteLink' %>
+
+<br/><br/>

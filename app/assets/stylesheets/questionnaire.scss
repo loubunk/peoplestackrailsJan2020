@@ -1,0 +1,42 @@
+// Place all the styles related to the Questionnaire controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+/**********images*/
+
+.questImage {
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+
+/**********containers*/
+
+.almostDoneCont {
+	grid-column: 2 / 3;
+	grid-row: 2 / 3;
+	text-align: center;
+	padding: 1.5em 0 3.5em 0;
+}
+
+.questionnaireCont {
+	grid-column: 2 / 3;
+	grid-row: 3 / 4;	
+	text-align: center;	
+}
+
+.nextContQuest {
+	grid-column: 2 / 3;
+	grid-row: 4 / 5;
+	text-align: center;
+	padding: 2em 1em 1.5em 0;
+}
+
+.footerCont {
+	/* also used in quest_thank view */
+	text-align: center;
+	padding: 3em 0 1.5em 0;
+}
+

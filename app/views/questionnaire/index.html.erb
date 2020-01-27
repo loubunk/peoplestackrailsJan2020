@@ -1,0 +1,29 @@
+
+<div class="headLinkCont">
+	<%= render 'shared/headerLinks' %>
+</div>
+
+	<div class="frame">
+		<div class="topGridCont logoCont archD">
+  		<%= render 'shared/logo.html.erb' %>
+  	</div>	
+
+		<div class="almostDoneCont">
+			<p class="largeText"><%= @questTitle.value %></p><br>
+			<p class="mediumText"><%= @questInstructions.value %></p>
+		</div>
+
+		<div class="questionnaireCont">
+			<%= image_tag "quest_temp.jpg", :class => "questImage" %>
+		</div>
+
+		<div class="nextContQuest">
+			<%= link_to 'Next to Final Step', {controller: 'quest_thank'}, class: 'whiteLink mediumText' %>
+		</div>
+	
+	</div>
+
+<div class="footerCont">
+	<%= render 'shared/footerSmall' %>
+</div>
+

@@ -1,0 +1,29 @@
+<p>
+  <strong>Key:</strong>
+  <%= @testimonial.keyt %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @testimonial.name %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @testimonial.title%>
+</p>
+
+<p>
+  <strong>Company:</strong>
+  <%= @testimonial.company %>
+</p>
+
+<p>
+  <strong>Quote:</strong>
+  <%= @testimonial.quote %>
+</p>
+
+<br/><br/>
+<%= link_to 'Edit', edit_testimonial_path(@testimonial), class: 'whiteLink' %> | 
+<%= link_to 'Back', testimonials_path, class: 'whiteLink' %>
+<br/><br/>

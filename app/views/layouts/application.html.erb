@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Architects+Daughter" rel="stylesheet">
+      <!-- for icon and arch daughter font-->
+
+
+    <title>Peoplestack</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+      <!-- does this make all stlyesheets load for each view? so html {} can be only in index but will be shared with all?-->
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <%= yield %>
+
+  </body>
+</html>

@@ -1,0 +1,46 @@
+<%= render 'shared/headerLinks' %> | 
+
+<%= link_to 'New Testimonial', new_testimonial_path, class: 'whiteLink' %>
+<br/><br/>
+
+<h1>Testimonials</h1>
+<br/>
+
+
+<table class="tableFixed">
+
+  <colgroup>
+    <col span="5">
+    <col class="colWidthLarge"> <!-- to avoid quote column from being too small. prb a better way to do this-->
+  </colspan>
+
+  <tr>
+    <th>ID</th>
+    <th>Key</th>
+    <th>Name</th>
+    <th>Title</th>
+    <th>Company</th>
+    <th class="tableWidthLarge">Quote</th>
+    <th></th><th></th><th></th> <!-- to exted botton ines to end of table-->
+  </tr>
+
+  <% @testimonials.each do |testimonial| %>
+    <tr>
+      <td><%= testimonial.id %></td>
+      <td><%= testimonial.keyt %></td>
+      <td><%= testimonial.name %></td>
+      <td><%= testimonial.title %></td>
+      <td><%= testimonial.company %></td>
+      <td><%= testimonial.quote %></td>
+      <td><%= link_to 'Show', testimonial_path(testimonial), class: 'whiteLink' %></td>
+      <td><%= link_to 'Edit', edit_testimonial_path(testimonial), class: 'whiteLink' %></td>
+      <td><%= link_to 'Destroy', testimonial_path(testimonial), class: 'whiteLink',
+        method: :delete,
+        data: { confirm: 'Are you sure?' } %></td>
+    </tr>
+  <% end %>
+</table>
+
+<br/>
+<%= link_to 'New Testimonial', new_testimonial_path, class: 'whiteLink' %>
+<br/><br/>

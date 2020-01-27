@@ -1,0 +1,29 @@
+// Place all the styles related to the questThank controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+/**********images*/
+
+.videoImage {
+	max-width: 100%;
+	height: auto;
+}
+
+/**********containers */
+
+.thankyouCont {
+	grid-column: 2 / 3;
+	grid-row: 2 / 3;
+	text-align: center;
+	padding: 1.5em 0 3em 0;
+}
+
+.videoCont {
+	grid-column: 2 / 3;
+	grid-row: 3 / 4;	
+	text-align: center;
+	padding-bottom: 2em;
+}
+

@@ -1,0 +1,27 @@
+
+<div class="headLinkCont">
+	<%= render 'shared/headerLinks' %>
+</div>
+
+<div class="frame">
+	<div class="topGridCont logoCont archD">
+  		<%= render 'shared/logo.html.erb' %>
+	</div>	
+
+	<div class="thankyouCont">
+		<p class="largeText"><%= @questThanksTitle.value %></p><br>
+		<p class="mediumText"><%= @questThanksInstructions.value %></p>
+	</div>
+
+	<div class="videoCont">
+		<%= image_tag "video_temp.jpg", :class => "videoImage" %>
+	</div>
+
+</div>
+
+<div class="footerCont">
+	<%= render 'shared/footerSmall' %>
+</div>	
+
+
+

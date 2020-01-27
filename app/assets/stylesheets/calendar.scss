@@ -1,0 +1,247 @@
+// Place all the styles related to the Calendar controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+  
+
+/********** this SCSS doc is used as a repository for classes shared among calandar, questionaire, and questThank views *******************/
+
+/********** intentionally shared fonts*/
+
+.largeText {
+	font-size: 3em;
+}
+
+.mediumText {
+	font-size: 1.4em;
+}
+
+.smallText {
+	font-size: .75em;
+}
+
+/********** fonts (only used on this view) */
+
+.medBlackText {
+	/* for "See What others.." */
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 1.7em;
+	color: black;
+}
+
+.quoteText {
+	font-family: century, serif;
+	font-size: 1.2em;
+	margin-top: 1em;
+	padding-top: 1em;
+	color: black;
+	line-height: 1.5em;
+}
+
+.greyText {
+	/* for title of person being quoted */
+	color: grey;
+}
+
+/**********images*/
+
+.calImage {
+	max-width: 85%;
+	width: auto;
+	height: auto;
+}
+
+/**********containers top half of page*/
+
+.frame {
+	/************ shared with other views: questionaire and quest_thank */
+	display: grid;
+	grid-template-columns: 5% 90% 5%;
+	background-color: #1F5593;                   
+}
+
+.topGridCont {
+	/************ shared with other views: questionaire and quest_thank */
+	grid-column: 2 / 3;
+	grid-row: 1 / 2;
+	text-align: center;
+}
+
+.scheduleCont {
+	grid-column: 2 / 3;
+	grid-row: 2 / 3;
+	text-align: center;
+	padding: 1.5em 0 5em 0;
+
+}
+
+.calCont {
+	grid-column: 2 / 3;
+	grid-row: 3 / 4;    
+	text-align: center; 
+}
+
+.nextContCal {
+	grid-column: 2 / 2;
+	grid-row: 4 / 5;
+	padding: 2em 3em 4em 2em;
+	text-align: center;	
+}
+
+
+/************* Containers for bottom of page in white area */
+
+/************* Small screen size  */
+
+@media screen and (max-width: 849px) {
+
+	.frame2 {
+		display: grid;
+		grid-template-columns: 5% 90% 5%;
+		background-color: white;						
+	}
+
+	.seeWhatCont {
+		grid-column: 2 / 4;
+		grid-row: 1 / 2;
+		text-align: center;
+		padding: 1em 0em 3em 0em;
+	}
+
+	.quote1 {
+		grid-column: 2 / 3;
+		grid-row: 2 / 3;
+		text-align: center;
+		padding-bottom: 3em; 
+	}
+
+	.quote2 {
+		grid-column: 2 / 3;
+		grid-row: 3 / 4;
+		text-align: center;
+		padding-bottom: 3em; 
+	}
+
+	.quote3 {
+		grid-column: 2 / 3;
+		grid-row: 4 / 5;
+		text-align: center;
+		padding-bottom: 3em;
+	}
+
+	.quote4 {
+		grid-column: 2 / 3;
+		grid-row: 5 / 6;
+		text-align: center;
+		padding-bottom: 3em;
+	}
+
+	.quote5 {
+		grid-column: 2 / 3;
+		grid-row: 6 / 7;
+		text-align: center;
+		padding-bottom: 3em;
+	}
+
+	.quote6 {
+		grid-column: 2 / 3;
+		grid-row: 7 / 8;
+		text-align: center;
+		padding-bottom: 3em;
+	}
+
+	.quote7 {
+		grid-column: 2 / 3;
+		grid-row: 8 / 9;
+		text-align: center;
+		padding-bottom: 3em;
+	}
+
+	.quote8 {
+		grid-column: 2 / 3;
+		grid-row: 9 / 10;
+		text-align: center;
+		padding-bottom: 3em;
+	}
+}
+
+/********* Larger Screen Size Containers for bottom of page */
+
+@media screen and (min-width: 850px) {
+
+	.frame2 {
+		display: grid;
+		grid-template-columns: 10% 40% 40% 10%;
+		background-color: white;                        
+	}
+
+	.seeWhatCont {
+		grid-column: 2 / 4;
+		grid-row: 1 / 2;
+		text-align: center;
+		padding: 2em 0 3em 0;
+	}
+
+	/* left right quote couplet 1 */
+
+	.quote1 {
+		grid-column: 2 / 3;
+		grid-row: 2 / 3;
+		padding: 0 2em 3em 0;
+		text-align: center;
+	}
+
+	.quote2 {
+		grid-column: 3 / 4;
+		grid-row: 2 / 3;
+		padding: 0 0 3em 2em;
+		text-align: center;
+	}
+
+	/* left right quote couplet 2 */
+
+	.quote3 {
+		grid-column: 2 / 3;
+		grid-row: 3 / 4;
+		padding: 0 2em 3em 0;
+		text-align: center;
+	}
+
+	.quote4 {
+		grid-column: 3 / 4;
+		grid-row: 3 / 4;
+		padding: 0 0 3em 2em;
+		text-align: center;
+	}
+
+	/* left right quote couplet 3 */
+
+	.quote5 {
+		grid-column: 2 / 3;
+		grid-row: 4 / 5;
+		padding: 0 2em 3em 0;
+		text-align: center;
+	}
+
+	.quote6 {
+		grid-column: 3 / 4;
+		grid-row: 4 / 5;
+		padding: 0 0 3em 2em;
+		text-align: center;
+	}
+
+	/* left right quote couplet 4 */
+
+	.quote7 {
+		grid-column: 2 / 3;
+		grid-row: 5 / 6;
+		padding: 0 2em 3em 0;
+		text-align: center;
+	}
+
+	.quote8 {
+		grid-column: 3 / 4;
+		grid-row: 5 / 6;
+		padding: 0 0 3em 2em;
+		text-align: center;
+	}
+}

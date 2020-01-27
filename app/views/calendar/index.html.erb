@@ -1,0 +1,110 @@
+
+<div class="headLinkCont">
+	<%= render 'shared/headerLinks' %>
+</div>
+
+<div class="frame">
+	<div class="topGridCont logoCont archD">
+		<%= render 'shared/logo.html.erb' %>
+	</div>	
+
+	<div class="scheduleCont">
+		<p class="largeText">Schedule Your Career Strategy Session Now!</p>
+	</div>
+
+	<div class="calCont">
+		<%= image_tag "cal_temp.jpg", :class =>"calImage" %>
+	</div>
+
+	<div class="nextContCal" >
+		<%= link_to 'Next to Questionnaire', {controller: 'questionnaire'}, class: 'whiteLink mediumText' %>
+	</div>	
+
+</div>
+
+<!-- *************** white area with quotes ** -->
+
+<div class="frame2 quoteText">
+	
+	<div class="seeWhatCont">
+		<p class="medBlackText">See What Others Are Saying:</p>
+	</div>
+	
+	<div class="quote1" >
+		<p><i><p>"<%= @testimonial1.quote %>"</p></i>
+		<br>		
+		<b><%= @testimonial1.name %></b>
+		<span class="greyText"> | <%= @testimonial1.title %></span>	 	
+		</p>
+	</div>
+
+	<div class="quote2" >
+		<p><i><p>"<%= @testimonial2.quote %>"</p></i>
+		<br>
+		<b><%= @testimonial2.name %></b>
+		<span class="greyText"> | <%= @testimonial2.title %></span>	 	
+		</p>
+	</div>
+
+	<div class="quote3" >
+		<p><i><p>"<%= @testimonial3.quote %>"</p></i>
+		<br>
+		<b><%= @testimonial3.name %></b>
+		<span class="greyText"> | <%= @testimonial3.title %></span>	 	
+		</p>
+	</div>
+
+	<div class="quote4" >
+		<p><i><p>"<%= @testimonial4.quote %>"</p></i>
+		<br>
+		<b><%= @testimonial4.name %></b>
+		<span class="greyText"> | <%= @testimonial4.title %></span>	 	
+		</p>
+	</div>
+
+	<div class="quote5" >
+		<p><i><p>"<%= @testimonial5.quote %>"</p></i>
+		<br>
+		<b><%= @testimonial5.name %></b>
+		<span class="greyText"> | <%= @testimonial5.title %></span>	 	
+		</p>
+	</div>
+
+	<div class="quote6" >
+		<p><i><p>"<%= @testimonial6.quote %>"</p></i>
+		<br>
+		<b><%= @testimonial6.name %></b>
+		<span class="greyText"> | <%= @testimonial6.title %></span>	 	
+		</p>
+	</div>
+
+	<div class="quote7" >
+		<p><i><p>"<%= @testimonial7.quote %>"</p></i>
+		<br>
+		<b><%= @testimonial7.name %></b>
+		<span class="greyText"> | <%= @testimonial7.title %></span>	 	
+		</p>
+	</div>
+
+	<div class="quote8" >
+		<p><i><p>"<%= @testimonial8.quote %>"</p></i>
+		<br>
+		<b><%= @testimonial8.name %></b>
+		<span class="greyText"> | <%= @testimonial8.title %></span>	 	
+		</p>
+	</div>
+</div>
+
+<div class="footerCont">
+	<%= render 'shared/footerSmall' %>
+</div>
+
+
+
+
+
+
+
+
+
+

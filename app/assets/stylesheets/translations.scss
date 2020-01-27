@@ -1,0 +1,31 @@
+// Place all the styles related to the Translations controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+/******** Shared Among Other Tables */
+
+.tableFixed{
+	table-layout:fixed;	
+}
+
+th, td {
+  border-bottom: 1px solid;
+  padding: 1em.5em 1em .5em;
+}
+
+.tableCont{
+	overflow-x:auto;
+}
+
+
+/******** For this Table Only */
+
+.newTransCont{
+	padding: 3em 0 4em 0;
+}
+
+
+
+
+
