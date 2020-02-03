@@ -2,19 +2,25 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
+/********** SCSS Variables */
+
+@import "_typography.scss";
+
+
 /********** broadest elements */
 /**********  the intention of this section is to carry to all other views */
 /**********  though that is true for all selectors?  */
 
 html {
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-family: $font-stack;
 	font-size: 16px;
 	background-color: white;
 	color: white;
 }
 
 body {
-	background-color: #205493;
+	background-color: $background_blue;
 	max-width: 1920px;
 	margin: 0 auto;
 	padding: 1em 0 0 0;
@@ -55,119 +61,119 @@ body {
 
 /********** classes copied from current page, with modifications */   
 
-    .ico {
-      font-family: 'Material Icons'; 
-      font-size: 4.6em;
-    }
+.ico {
+  font-family: 'Material Icons'; 
+  font-size: 4.6em;
+}
 
-    .svgicon {
-      width: 5em;
-      height: 5em;
-    }
+.svgicon {
+  width: 5em;
+  height: 5em;
+}
 
-    .bottom {
-      padding: .5em 0;
-      margin: 0;
-      background-color: #d7dfe4;
-      font-size: 1em;
-      text-align: center;
-    }
+.bottom {
+  padding: .5em 0;
+  margin: 0;
+  background-color: #d7dfe4;
+  font-size: 1em;
+  text-align: center;
+}
 
-    .contact-info {
-      font-size: .7em;
-      font-weight: lighter;
-      padding: 0 0 .8em 0;
-    } 
+.contact-info {
+  font-size: .7em;
+  font-weight: lighter;
+  padding: 0 0 .8em 0;
+} 
 
-    .contactText {
-    	color: #505050;
-    	font-size: .5em;
-    }  
+.contactText {
+	color: #505050;
+	font-size: .5em;
+}  
 
-    .blueText {
-    	color: #0071BC;
-    }
-
-
-/********** by element (and combos). copied from existing page, with modifications */
+.blueText {
+	color: #0071BC;
+}
 
 
-    ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-    }
+/********** by element name copied from existing page, with modifications */
 
-    li {
-      text-align: center;
-      margin: -1.25em 1.75em;
-      padding: .15em 0 0 0;
-    }
 
-    nav {
-      display: block;
-      width: 90%;
-      text-align: center;
-      margin: 3em auto 6em auto;
-    }
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
-    nav ul {
-      margin: 2em 0;
-    }
+li {
+  text-align: center;
+  margin: -1.25em 1.75em;
+  padding: .15em 0 0 0;
+}
 
-    nav li {
-      display: inline-block;
-      background: #fff; 
-      width: 7em;
-      height: 7em; 
-      padding: 1em;
-      font-size: .75em;
-      margin-bottom: -1.5em;
-    }
+nav {
+  display: block;
+  width: 90%;
+  text-align: center;
+  margin: 3em auto 6em auto;
+}
 
-    p {
-      margin: .1em;
-      padding: 0;
-    }
+nav ul {
+  margin: 2em 0;
+}
 
-    a, a:visited, svg path {
-      color: #205493;
-      fill: #205493;
-      text-decoration: none;
-    }
+nav li {
+  display: inline-block;
+  background: #fff; 
+  width: 7em;
+  height: 7em; 
+  padding: 1em;
+  font-size: .75em;
+  margin-bottom: -1.5em;
+}
 
-    a:hover, a:hover path, .psst a:hover > * {
-      color: #0071bc;
-      fill: #0071bc;
-    }
+p {
+  margin: .1em;
+  padding: 0;
+}
 
-    sup {
-      font-size: .45em;
-    }
+a, a:visited, svg path {
+  color: $background_blue;
+  fill: $background_blue;
+  text-decoration: none;
+}
 
-    sup, .bottom {
-      font-family: sans-serif;
-    }
+a:hover, a:hover path, .psst a:hover > * {
+  color: #0071bc;
+  fill: #0071bc;
+}
 
-    footer {
-      height: 8em;
-      bottom: 0;
-      width: 100%;
-    }
+sup {
+  font-size: .45em;
+}
 
-    .contact-info p {
-      font-size: 1.4em;
+sup, .bottom {
+  font-family: sans-serif;
+}
 
-      font-weight: normal;
-      margin: 0;
-    }
+footer {
+  height: 8em;
+  bottom: 0;
+  width: 100%;
+}
+
+.contact-info p {
+  font-size: 1.4em;
+
+  font-weight: normal;
+  margin: 0;
+}
 
 
 /********** used by partials */
 
 a.whiteLink {
   color: #d7dfe4;
-  fill: #205493;
+  fill: $background_blue;
   text-decoration: none;
 }
 

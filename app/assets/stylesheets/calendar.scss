@@ -5,6 +5,8 @@
 
 /********** this SCSS doc is used as a repository for classes shared among calandar, questionaire, and questThank views *******************/
 
+@import "_typography.scss";
+
 /********** intentionally shared fonts*/
 
 .largeText {
@@ -23,7 +25,7 @@
 
 .medBlackText {
 	/* for "See What others.." */
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-family: $font_stack;
 	font-size: 1.7em;
 	color: black;
 }
