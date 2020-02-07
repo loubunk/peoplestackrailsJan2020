@@ -1,0 +1,17 @@
+
+@import 'base/vars';
+
+html {
+  font-family: $font-stack;
+  background-color: white;
+  color: white;
+}
+
+body {
+  background-color: $background-blue;
+  max-width: 1920px; 
+  margin: 0 auto;
+  padding: 1em 0 0 0;
+  margin: 0;
+  text-align: center;
+} 

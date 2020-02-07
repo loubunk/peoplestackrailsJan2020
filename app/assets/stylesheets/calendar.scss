@@ -1,31 +1,15 @@
 // Place all the styles related to the Calendar controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-  
 
-/********** this SCSS doc is used as a repository for classes shared among calandar, questionaire, and questThank views *******************/
+@import 'base/vars';  
 
-@import "_typography.scss";
-
-/********** intentionally shared fonts*/
-
-.largeText {
-	font-size: 3em;
-}
-
-.mediumText {
-	font-size: 1.4em;
-}
-
-.smallText {
-	font-size: .75em;
-}
 
 /********** fonts (only used on this view) */
 
 .medBlackText {
 	/* for "See What others.." */
-	font-family: $font_stack;
+	font-family: $font-stack;
 	font-size: 1.7em;
 	color: black;
 }
