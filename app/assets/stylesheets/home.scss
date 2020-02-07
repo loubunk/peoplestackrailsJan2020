@@ -2,64 +2,9 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+@import 'base/vars';
 
-/********** SCSS Variables */
-
-@import "_typography.scss";
-
-
-/********** broadest elements */
-/**********  the intention of this section is to carry to all other views */
-/**********  though that is true for all selectors?  */
-
-html {
-	font-family: $font-stack;
-	font-size: 16px;
-	background-color: white;
-	color: white;
-}
-
-body {
-	background-color: $background_blue;
-	max-width: 1920px;
-	margin: 0 auto;
-	padding: 1em 0 0 0;
-	margin: 0;
-  text-align: center;
-} 
-
-
-/**********fonts*/
-	/**********  these also carry to other views (intentionally) but are less broad */
- 
-.archD {
-	font-family: 'Architects Daughter';
-	font-size: 2vw;
-	color: #0a0d2e;
-}
-
-.vwSizePS {
-	/* so PS text in og is a little bigger than 2vw */
-	font-size: 2.1vw;	
-}
-
-.bottomPad {
-	padding-bottom: 1em;
-}
-
-
-/**********containers */
-
-.logoCont {
-	/************ shared with other views: all in funnel */
-  background-color: #fff; 
-  width: 12em;
-  height: 12em;
-  display: inline-block;
-  margin: 2em auto 1em;	
-}
-
-/********** classes copied from current page, with modifications */   
+/********** classes. most copied from current page, with modifications */   
 
 .ico {
   font-family: 'Material Icons'; 
@@ -92,6 +37,13 @@ body {
 
 .blueText {
 	color: #0071BC;
+}
+
+.contact-info p {
+  font-size: 1.4em;
+
+  font-weight: normal;
+  margin: 0;
 }
 
 
@@ -136,9 +88,9 @@ p {
   padding: 0;
 }
 
-a, a:visited, svg path {
-  color: $background_blue;
-  fill: $background_blue;
+a, svg path {
+  color: $background-blue;
+  fill: $background-blue;
   text-decoration: none;
 }
 
@@ -161,32 +113,7 @@ footer {
   width: 100%;
 }
 
-.contact-info p {
-  font-size: 1.4em;
-
-  font-weight: normal;
-  margin: 0;
-}
 
 
-/********** used by partials */
 
-a.whiteLink {
-  color: #d7dfe4;
-  fill: $background_blue;
-  text-decoration: none;
-}
 
-.headLinkCont {
-	text-align: right;
-	padding: 1em;
-}
-
-/**********image*/
-
-.logoImage {
-  display: block;
-  margin: 1em auto .5em auto;
-  width: 8em;
-  height: 8em;
-}
