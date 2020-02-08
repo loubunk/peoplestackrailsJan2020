@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_11_02_175139) do
+ActiveRecord::Schema.define(version: 2020_02_07_203033) do
 
   create_table "testimonials", force: :cascade do |t|
     t.string "title"
@@ -20,6 +20,14 @@ ActiveRecord::Schema.define(version: 2019_11_02_175139) do
     t.string "name"
     t.string "company"
     t.string "keyt"
+  end
+
+  create_table "throwaways", force: :cascade do |t|
+    t.string "name"
+    t.boolean "visable"
+    t.datetime "scheduled_time"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
   end
 
   create_table "translations", force: :cascade do |t|

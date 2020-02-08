@@ -10,7 +10,7 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-      <!-- does this make all stlyesheets load for each view? so html {} can be only in index but will be shared with all?-->
+      <!-- media: 'all' says to load all kinds of assets and 'application says to load 'application' in asessts first-->
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 

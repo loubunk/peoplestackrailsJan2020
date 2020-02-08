@@ -1,0 +1,201 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/lou/Documents/peoplestack/app/assets/stylesheets/home.scss",
+		"/Users/lou/Documents/peoplestack/app/assets/stylesheets/Documents/peoplestack/app/views/home/index",
+		"/Users/lou/Documents/peoplestack/app/assets/stylesheets/Documents/peoplestack",
+		"/Users/lou/Documents/peoplestack/app/assets/stylesheets/Documents/peolestack",
+		"/Users/lou/Documents/peoplestack/app/assets/stylesheets/application.css.scss",
+		"/Users/lou/Documents/peoplestack/app/assets/stylesheets/application.css",
+		"/Users/lou/Documents/peoplestack/app/views/calendar/index.html.erb",
+		"/Users/lou/Documents/peoplestack/app/assets/stylesheets/quest_thank.scss",
+		"/Users/lou/Documents/peoplestack/app/views/quest_thank/index.html.erb",
+		"/Users/lou/Documents/peoplestack/app/controllers/home_controller.rb",
+		"/Users/lou/Documents/peoplestack/app/models/translation.rb",
+		"/Users/lou/Documents/peoplestack/db/migrate/20191031133820_create_translations.rb",
+		"/Users/lou/Documents/peoplestack/app/views/translations/_form.html.erb",
+		"/Users/lou/Documents/peoplestack/app/views/translations/edit.html.erb",
+		"/Users/lou/Documents/peoplestack/app/views/translations/new.html.erb",
+		"/Users/lou/Documents/peoplestack/app/views/translations/show.html.erb",
+		"/Users/lou/Documents/peoplestack/app/views/translations/index.html.erb",
+		"/Users/lou/Documents/peoplestack/app/controllers/translations_controller.rb",
+		"/Users/lou/Documents/peoplestack/db/migrate/20191026172804_create_testimonials.rb",
+		"/Users/lou/Documents/jenspages2/db/migrate/20191014145720_create_translations.rb",
+		"/Users/lou/Documents/jenspages2/config/routes.rb",
+		"/Users/lou/Documents/jenspages2/app/models/translation.rb",
+		"/Users/lou/Documents/jenspages2/app/controllers/translations_controller.rb",
+		"/Users/lou/Documents/jenspages2/app/views/translations/show.html.erb",
+		"/Users/lou/Documents/GitRepos/jenspages/app/views/publications/index.html.erb",
+		"/Users/lou/Documents/GitRepos/jenspages/app/views/services/index.html.erb",
+		"/Users/lou/Documents/GitRepos/jenspages/app/models/translation.rb",
+		"/Users/lou/Documents/GitRepos/jenspages/config/routes.rb",
+		"/Users/lou/Documents/GitRepos/jenspages/app/views/testimonials/index.html.erb",
+		"/Users/lou/Documents/GitRepos/jenspages/app/views/breakthroughs/step1.html.erb",
+		"/Users/lou/Documents/GitRepos/jenspages/app/views/devise/registrations/edit.html.erb",
+		"/Users/lou/Documents/GitRepos/jenspages/app/views/devise/registrations/new.html.erb",
+		"/Users/lou/Documents/GitRepos/jenspages/app/controllers/registrations_controller.rb",
+		"/Users/lou/Documents/GitRepos/jenspages/Gemfile",
+		"/Users/lou/fun/test apps/macapp1/app/views/home/index.html.erb",
+		"/Users/lou/fun/turtorials/app/views/home/idex.html.erb",
+		"/Users/lou/fun/turtorials/config/routes.rb"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "peoplestack.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 276.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
