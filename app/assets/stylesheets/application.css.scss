@@ -1,0 +1,12 @@
+@import 'shared/vars';
+@import 'shared/*';
+@import '*';
+
+/********** usesd  @import to load vars.scss first (and is put at the top of the master css sheet) becaues it contans the global variabes. */
+/* this is in place of the Rails default application.css which loads them in alphbetical order. see my notes */
+/* also, shared/* is befrore * so these shared styles are in place befroe the view is loaded */
+
+/* stylesheets organized by view and shared. */
+/* Those styles that are specific to a page (containers, special fonts and sizing, etc) are in the view-named scss (calandar.scss) */
+/* Those that are in multiple views are in the 'shared' folder, organized by type of style. */
+/* global variables are in the 'shared/vars.scss' */

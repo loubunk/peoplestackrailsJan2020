@@ -2,10 +2,10 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-@import 'base/vars';  
 
 
-/********** fonts (only used on this view) */
+
+/********** fonts */
 
 .medBlackText {
 	/* for "See What others.." */
@@ -28,7 +28,7 @@
 	color: grey;
 }
 
-/**********images*/
+/********** images */
 
 .calImage {
 	max-width: 85%;
@@ -36,7 +36,7 @@
 	height: auto;
 }
 
-/**********containers top half of page*/
+/********** containers top half of page */
 
 .frame {
 	/************ shared with other views: questionaire and quest_thank */
