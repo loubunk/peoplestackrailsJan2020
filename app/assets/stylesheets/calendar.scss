@@ -38,20 +38,6 @@
 
 /********** containers top half of page */
 
-.frame {
-	/************ shared with other views: questionaire and quest_thank */
-	display: grid;
-	grid-template-columns: 5% 90% 5%;
-	background-color: #1F5593;                   
-}
-
-.topGridCont {
-	/************ shared with other views: questionaire and quest_thank */
-	grid-column: 2 / 3;
-	grid-row: 1 / 2;
-	text-align: center;
-}
-
 .scheduleCont {
 	grid-column: 2 / 3;
 	grid-row: 2 / 3;
