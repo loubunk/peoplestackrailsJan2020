@@ -1,12 +1,12 @@
 
-<div class="headLinkCont">
+<header class="headLinkCont">
 	<%= render 'shared/headerLinks' %>
-</div>
+</header>
 
-<div class="frame">
-	<div class="topGridCont logoCont archD">
+<main class="frame">
+	<header class="topGridCont logoCont archD">
 		<%= render 'shared/logo.html.erb' %>
-	</div>	
+	</header>	
 
 	<div class="scheduleCont">
 		<p class="largeText">Schedule Your Career Strategy Session Now!</p>
@@ -20,15 +20,15 @@
 		<%= link_to 'Next to Questionnaire', {controller: 'questionnaire'}, class: 'whiteLink mediumText' %>
 	</div>	
 
-</div>
+</main>
 
 <!-- *************** white area with quotes ** -->
 
-<div class="frame2 quoteText">
+<section class="frame2 quoteText">
 	
-	<div class="seeWhatCont">
+	<header class="seeWhatCont">
 		<p class="medBlackText">See What Others Are Saying:</p>
-	</div>
+	</header>
 	
 	<div class="quote1" >
 		<p><i><p>"<%= @testimonial1.quote %>"</p></i>
@@ -93,11 +93,11 @@
 		<span class="greyText"> | <%= @testimonial8.title %></span>	 	
 		</p>
 	</div>
-</div>
+</section>
 
-<div class="footerCont">
+<footer class="footerCont">
 	<%= render 'shared/footerSmall' %>
-</div>
+</footer>
 
 
 

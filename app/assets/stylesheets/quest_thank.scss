@@ -4,7 +4,7 @@
 
 
 
-/**********images*/
+/**********removed*/
 
 .videoImage {
 	max-width: 100%;
@@ -20,10 +20,27 @@
 	padding: 1.5em 0 3em 0;
 }
 
+
+/* large padding is a trick to make responsive from here https://blog.theodo.com/2018/01/responsive-iframes-css-trick/ 
+I changed widht, height so it doesnt fill screen and add a pad-left to center. this seems like a hack. */
+
 .videoCont {
 	grid-column: 2 / 3;
 	grid-row: 3 / 4;	
-	text-align: center;
-	padding-bottom: 2em;
+	position: relative;
+	overflow: hidden;
+	padding-top: 56.25%;
 }
+
+.iframeCont {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 70%;
+	height: 70%;
+	border: 0;
+	padding-left: 15%;
+}
+
+
 

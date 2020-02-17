@@ -1,12 +1,12 @@
 
-<div class="headLinkCont">
+<header class="headLinkCont">
 	<%= render 'shared/headerLinks' %>
-</div>
+</header>
 
-	<div class="frame">
-		<div class="topGridCont logoCont archD">
+	<main class="frame">
+		<header class="topGridCont logoCont archD">
   		<%= render 'shared/logo.html.erb' %>
-  	</div>	
+  	</header>	
 
 		<div class="almostDoneCont">
 			<p class="largeText"><%= @questTitle.value %></p><br>
@@ -21,9 +21,9 @@
 			<%= link_to 'Next to Final Step', {controller: 'quest_thank'}, class: 'whiteLink mediumText' %>
 		</div>
 	
-	</div>
+	</main>
 
-<div class="footerCont">
+<footer class="footerCont">
 	<%= render 'shared/footerSmall' %>
-</div>
+</footer>
 

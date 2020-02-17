@@ -1,12 +1,12 @@
 
-<div class="headLinkCont">
+<header class="headLinkCont">
 	<%= render 'shared/headerLinks' %>
-</div>
+</header>
 
-<div class="frame">
+<header class="frame">
 	<div class="topGridCont logoCont archD">
   		<%= render 'shared/logo.html.erb' %>
-	</div>	
+	</header>	
 
 	<div class="thankyouCont">
 		<p class="largeText"><%= @questThanksTitle.value %></p><br>
@@ -14,14 +14,14 @@
 	</div>
 
 	<div class="videoCont">
-		<%= image_tag "video_temp.jpg", :class => "videoImage" %>
+		<iframe class="iframeCont" src="https://www.youtube.com/embed/kwffMZScJAs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</div>
 
 </div>
 
-<div class="footerCont">
+<footer class="footerCont">
 	<%= render 'shared/footerSmall' %>
-</div>	
+</footer>	
 
 
 
