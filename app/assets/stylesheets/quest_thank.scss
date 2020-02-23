@@ -26,11 +26,13 @@ I changed widht, height so it doesnt fill screen and add a pad-left to center. t
 
 .videoCont {
 	grid-column: 2 / 3;
-	grid-row: 3 / 4;	
+	grid-row: 3 / 4;
 	position: relative;
 	overflow: hidden;
 	padding-top: 56.25%;
 }
+
+
 
 .iframeCont {
 	position: absolute;
@@ -42,5 +44,17 @@ I changed widht, height so it doesnt fill screen and add a pad-left to center. t
 	padding-left: 15%;
 }
 
-
-
+/* from new tutorial */
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 15%;
+	width: 70%;
+	height: 70%;
+}
