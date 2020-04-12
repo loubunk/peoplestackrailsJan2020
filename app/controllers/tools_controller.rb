@@ -1,7 +1,7 @@
 class ToolsController < ApplicationController
   		
-  ##### for devise gem 
-  before_action :authenticate_user!
+  ##### for devise gem (add back)
+	before_action :authenticate_user!
 
   def index
   end

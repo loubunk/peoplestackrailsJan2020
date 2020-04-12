@@ -64,10 +64,9 @@ Rails.application.configure do
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
   # added by LB for Devise. This was the option given by intructions. 
+  config.action_mailer.delivery_method = :smtp
   config.action_mailer.default_url_options = { host: ENV['MAIL_HOST'] }
   
-  config.action_mailer.delivery_method = :smtp
-
   # LB added for devise emailing to work. might need to change adress and port ot our specific? 
   config.action_mailer.smtp_settings = {
     user_name:      ENV['SENDMAIL_USERNAME'],
